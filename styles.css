@@ -26,5 +26,6 @@ body{background-color: #8ee4af;
 
           border-bottom: 2px solid white;
         }
+        li:hover { background-color: rgb(98, 54, 179);}
       
 
