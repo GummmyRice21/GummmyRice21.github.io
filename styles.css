@@ -2,17 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 
 body{background-color: #8ee4af;
-    color: black;
+    color: rgb(159, 239, 21);
     font-family: 'Protest Strike';
     font-size: larger;
     margin: 1.4px;
+    background-image: url(Images/cool-background.png);
 
 }
     nav ul {
         
         list-style-type: none;
         font-family: 'Protest Strike';
-        background: black;
+        background: rgb(104, 29, 245);
         padding: 0px;
       }
       li {
@@ -21,11 +22,33 @@ body{background-color: #8ee4af;
         border-left: px solid white; 
       }
       a {
-        color: white;
+        color: rgb(255, 255, 255);
         text-decoration: none;
 
           border-bottom: 2px solid white;
         }
-        li:hover { background-color: rgb(98, 54, 179);}
-      
+        a:hover {color: rgb(64, 179, 54);}
+
+
+
+nav.sticky {
+  position: sticky;
+
+  top: 0;
+}
+li.navb>a.navl:hover{
+  font-size: large;
+}
+#contact {
+  color: #17ea37; font-family:Protest Strike; border: 0;text-align: center;
+}
+
+.footer {
+  background-color: rgb(19, 26, 127);
+}
+
+input:focus {
+  background-color: rgb(162, 246, 254);
+  border-color: rgb(162, 246, 254);
+}
 
