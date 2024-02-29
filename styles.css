@@ -51,4 +51,6 @@ input:focus {
   background-color: rgb(162, 246, 254);
   border-color: rgb(162, 246, 254);
 }
+.info {width: 300px; padding: 8px;}
+
 

@@ -14,33 +14,42 @@
 <body>
     <nav class="sticky">
         <ul>    
-            <li><a href="index.html">Home Page</a></li>
-          <li><a href="about_me.html">My About me</a></li>
-          <li><a href="projects.html">My projects</a></li>
-          <li><a href="Interest.html">My Interest</a></li>
-          <li><a href="portfolio.html">My Portfolio</a></li>
+            <li class="navb"><a href="index.html" class="navl">Home Page</a></li>
+            <li class="navb"><a href="about_me.html" class="navl">My About me</a></li>
+            <li class="navb"><a href="projects.html" class="navl">My projects</a></li>
+            <li class="navb"><a href="Interest.html" class="navl">My Interest</a></li>
+            <li class="navb"><a href="portfolio.html" class="navl">My Portfolio</a></li>
+            <li class="navb"><a href="Contact_me.html" class="navl">My Contacts</a></li>
         </ul>
       </nav>
       
     <h1 align="center"> This my Contacts </h1>
     <h2>There are my Contacts feel free to get in touch with me if intertest. </h2>
-
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="" width="" style="max-width: 20%;">
+    <a href="https://github.com/GummmyRice21" target="_blank">My Insta</a>
 
 <div class="footer">
     <hr class="hr">
     <h3 id="contact">Contact Me</h3>
-    <form align="center">
-  
+    <form align="center" action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
+    <P> First Name</P>
       <input type="text" id="fname" placeholder="First Name" class="info">
       <br>
+      <P>Last Name</P>
       <input type="text" id="lname" placeholder="Last Name" class="info">
       <br>
+      <p>Email</p>
       <input type="email" placeholder="Email" class="info">
       <br>
+      <P></P>
       <input type="submit" value="Submit" class="info">
+      <input name="send-to" value="swilliams4@brooklynsteamcenter.org" hidden>
     </form>
     <br>
     <br>
+
+
+
  </div>
 </body>
 </html>
